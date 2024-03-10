@@ -25,7 +25,7 @@
 		$formcontent="From: $name\nSubject: $subject\nEmail: $email\nMessage: $message";
 		
 		
-		//Place your Email Here
+		//Place Email Here
 		$recipient = "ad01santosh@gmail.com";
 		
 		$mailheader = "From: $email \r\n";
