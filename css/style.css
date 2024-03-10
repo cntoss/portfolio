@@ -942,8 +942,13 @@ body.section-switching.up .animation-block{
 	width:33.3333%;
 }
 .portfolio-items > li > .inner{
-	margin:5px;
-	position:relative;
+		margin: 5px;
+		position: relative;
+		height: 400px;
+		border: solid 5px #B6B6B6;
+		padding: 20px;
+		background-color: #FFF;
+	
 }
 .portfolio-items > li{
 	z-index:2;

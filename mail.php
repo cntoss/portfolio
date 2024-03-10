@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 	
 	/*
 		The Send Mail php Script for Contact Form
@@ -25,7 +25,7 @@
 		$formcontent="From: $name\nSubject: $subject\nEmail: $email\nMessage: $message";
 		
 		
-		//Place Email Here
+		//Place your Email Here
 		$recipient = "ad01santosh@gmail.com";
 		
 		$mailheader = "From: $email \r\n";
@@ -40,4 +40,4 @@
 	
 	echo json_encode($data);
 	
-?>
+?> -->

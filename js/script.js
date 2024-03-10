@@ -107,8 +107,21 @@ $(function(){
 		if (!e.isDefaultPrevented()) {
 			// If there is no any error in validation then send the message
 			
-			e.preventDefault();
-			var $this = $(this),
+			e.preventDefault();	  	
+			const form = document.getElementById('contact-form');
+			const name = encodeURIComponent(form.querySelector('[name="name"]').value);
+			debugger;
+            const email = encodeURIComponent(form.querySelector('[name="email"]').value);
+            const subject = encodeURIComponent(form.querySelector('[name="subject"]').value);
+            const message = encodeURIComponent(form.querySelector('[name="message"]').value);
+
+            const mailtoLink = `mailto:${email}?subject=${subject}&body=${message}`;
+
+            // Redirect the user to the mailto link
+            window.location.href = mailtoLink;
+
+			///Below code send mail using php which need to configure mail server
+			/* var $this = $(this),
 				
 				//You can edit alerts here
 				alerts = {
@@ -171,7 +184,7 @@ $(function(){
 				error: function(){
 					$('#contact-form-result').html(alerts.error);
 				}
-			});
+			}); */
 		}
 	});
 	
