@@ -1,1362 +1,689 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<meta name="description" content="Santosh Adhikari | Experienced Flutter developer and Full-stack software Engineer specializing in mobile app development with 5+ years of experience. Expert in creating high-performance cross-platform applications.">
-	<meta name="keywords" content="Santosh Adhikari, Flutter Developer, Mobile App Developer, Full Stack Developer, Portfolio, Software Engineer Nepal, Cross Platform Developer, iOS Developer, Android Developer">
-	<meta name="author" content="Santosh Adhikari">
-	<meta name="robots" content="index, follow">
+  <meta name="description" content="Santosh Adhikari | Experienced Flutter developer and Full-stack software Engineer specializing in mobile app development with 5+ years of experience. Expert in creating high-performance cross-platform applications.">
+  <meta name="keywords" content="Santosh Adhikari, Flutter Developer, Mobile App Developer, Full Stack Developer, Portfolio, Software Engineer Nepal, Cross Platform Developer, iOS Developer, Android Developer">
+  <meta name="author" content="Santosh Adhikari">
+  <meta name="robots" content="index, follow">
 
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://santosh-adhikari.com.np/">
-	<meta property="og:title" content="Santosh Adhikari | Full-stack Software Engineer">
-	<meta property="og:description" content="Experienced Flutter developer specializing in cross-platform mobile applications with 5+ years of professional experience.">
-	<meta property="og:image" content="/img/favicon/android-chrome-192x192.png">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://santosh-adhikari.com.np/">
+  <meta property="og:title" content="Santosh Adhikari | Flutter Developer">
+  <meta property="og:description" content="Experienced Flutter developer specializing in cross-platform mobile applications with 5+ years of professional experience.">
+  <meta property="og:image" content="/img/favicon/android-chrome-192x192.png">
 
-	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="https://santosh-adhikari.com.np/">
-	<meta property="twitter:title" content="Santosh Adhikari | Full-stack Software Engineer">
-	<meta property="twitter:description" content="Experienced Flutter developer specializing in cross-platform mobile applications with 5+ years of professional experience.">
-	<meta property="twitter:image" content="/img/favicon/android-chrome-192x192.png">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://santosh-adhikari.com.np/">
+  <meta name="twitter:title" content="Santosh Adhikari | Flutter Developer">
+  <meta name="twitter:description" content="Experienced Flutter developer specializing in cross-platform mobile applications with 5+ years of professional experience.">
+  <meta name="twitter:image" content="/img/favicon/android-chrome-192x192.png">
 
-	<title>Santosh Adhikari | Full-stack Software Engineer</title>
+  <title>Santosh Adhikari | Flutter Developer</title>
 
+  <!-- Favicon -->
+  <link rel="icon" href="/img/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon/android-chrome-192x192.png">
+  <link rel="apple-touch-icon" href="/img/favicon/android-chrome-192x192.png">
 
-	<!--=====================================================
-			CSS Stylesheets
-		=====================================================-->
-	<link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.min.css'>
-	<link rel='stylesheet' type='text/css' href='css/linea.css'>
-	<link rel='stylesheet' type='text/css' href='css/ionicons.min.css'>
-	<link rel='stylesheet' type='text/css' href='css/owl.carousel.css'>
-	<link rel='stylesheet' type='text/css' href='css/magnific-popup.css'>
-	<link rel='stylesheet' type='text/css' href='css/style.css'>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-
-	<!-- Favicon -->
-	<link rel="icon" href="/imag/favicon/favicon.ico" type="image/x-icon">
-	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="/img/favicon/android-chrome-192x192.png">
-	<link rel="icon" type="image/png" sizes="512x512" href="/img/favicon/android-chrome-512x512.png">
-
-
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-
-	<!--=====================================================
-			Preloader
-		=====================================================-->
-	<div id='preloader'>
-		<div class='loader'></div>
-		<div class='left'></div>
-		<div class='right'></div>
-	</div>
-
-
-	<div class='main-content'>
-
-		<!--=====================================================
-				Page Borders
-			=====================================================-->
-		<div class='page-border border-left'></div>
-		<div class='page-border border-right'></div>
-		<div class='page-border border-top'></div>
-		<div class='page-border border-bottom'></div>
-
-
-
-		<!--=====================================================
-				Menu Button
-			=====================================================-->
-		<a href='#' class='menu-btn'>
-			<span class='lines'>
-				<span class='l1'></span>
-				<span class='l2'></span>
-				<span class='l3'></span>
-			</span>
-		</a>
-
-
-		<!--=====================================================
-				Menu
-			=====================================================-->
-		<div class='menu'>
-			<div class='inner'>
-				<ul class='menu-items'>
-
-					<li>
-						<a href='#' class='section-toggle' data-section='intro'>
-							Home
-						</a>
-					</li>
-
-					<li>
-						<a href='#about' class='section-toggle' data-section='about'>
-							About
-						</a>
-					</li>
-
-					<li>
-						<a href='#resume' class='section-toggle' data-section='resume'>
-							Resume
-						</a>
-					</li>
-
-					<li>
-						<a href='#portfolio' class='section-toggle' data-section='portfolio'>
-							Portfolio
-						</a>
-					</li>
-
-
-					<li>
-						<a href='#contact' class='section-toggle' data-section='contact'>
-							Contact
-						</a>
-					</li>
-
-
-				</ul>
-			</div>
-		</div>
-
-		<div class='animation-block'></div>
-
-
-		<!--=====================================================
-				Sections
-			=====================================================-->
-		<div class='sections'>
-
-			<!--=====================================================
-					Main Section
-				=====================================================-->
-			<section id='intro' class='section section-main active'>
-
-				<div class='container-fluid'>
-
-					<div class='v-align'>
-						<div class='inner'>
-							<div class='intro-text'>
-
-								<h1>I'm Santosh Adhikari</h1>
-
-								<p>
-									A Friend, Dude and Buddy From Earth
-								</p>
-
-								<div class='intro-btns'>
-
-									<a href='#about' class='btn-custom section-toggle' data-section='about'>
-										Discover More
-									</a>
-
-									<a href='#contact' class='btn-custom section-toggle' data-section='contact'>
-										Contact Me
-									</a>
-
-								</div>
-
-							</div>
-						</div>
-
-					</div>
-
-				</div>
-
-			</section>
-
-
-			<!--=====================================================
-					About Section
-				=====================================================-->
-			<section id='about' class='section about-section border-d' data-nosnippet>
-
-				<div class='section-block about-block'>
-					<div class='container-fluid' data-noindex>
-						<div class='section-header'>
-							<h2>
-								I'm a <strong class='color'>Programmer</strong>
-							</h2>
-						</div>
-
-						<div class='row'>
-
-							<div class='col-md-4'>
-
-								<ul class='info-list'>
-
-									<li>
-										<strong>Name:</strong>
-										<span>Santosh Adhikari</span>
-									</li>
-
-									<li>
-										<strong>Job:</strong>
-										<span>Pioneer Associates</span>
-									</li>
-
-									<li>
-										<strong>Age:</strong>
-										<span>26 Years</span>
-									</li>
-
-									<li>
-										<strong>Residence:</strong>
-										<span>Nepal</span>
-									</li>
-
-									<li>
-										<strong>Hometown:</strong>
-										<span>Lalitpur</span>
-									</li>
-
-
-
-								</ul>
-
-							</div>
-
-							<div class='col-md-8'>
-
-								<div class='about-text'>
-									<p>
-										Hello! I'm a passionate Flutter developer,
-										deeply immersed in crafting delightful mobile experiences.
-										With Flutter, I merge creativity with functionality to build intuitive user
-										interfaces and robust applications. From widgets to state management, I thrive
-										on turning ideas into smooth,
-										visually appealing, and highly performant mobile apps.
-										Let's innovate and create together in the vibrant world of Flutter!.
-									</p>
-
-									<p>
-										Spend 5 years designing and building high-quality mobile applications.
-										Proficient in utilizing Flutter framework to create visually appealing,
-										high-performance
-										apps for both Android and iOS platforms. My expertise lies in problem-solving,
-										excellent communicator. My combination of problem-solving prowess
-										and strong communication enables me to deliver exceptional
-										results while maintaining clear and effective lines of
-										communication throughout the development process.
-									</p>
-
-								</div>
-
-								<div class='about-btns'>
-
-									<a href='#' class='btn-custom btn-color'>
-										Download Resume
-									</a>
-
-									<!-- <a href='#' class='btn-custom btn-color'>
-										Hire Me
-									</a> -->
-
-								</div>
-
-							</div>
-
-						</div>
-
-					</div>
-				</div>
-
-				<!-- <div class='section-block services-block'>
-
-					<div class='container-fluid'>
-
-						<div class='section-header'>
-
-							<h2>My <strong class='color'>Services</strong></h2>
-
-						</div>
-
-
-
-						<div class='row'>
-
-							<div class='col-md-4'>
-								<div class='service'>
-
-									<div class='icon'>
-										<i class='icon-basic-photo'></i>
-									</div>
-
-									<div class='content'>
-
-										<h4>Photography</h4>
-
-										<p>
-											Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri
-											suavitate similique in. Vide assum conceptam eum.
-										</p>
-
-									</div>
-
-								</div>
-							</div>
-
-							<div class='col-md-4'>
-								<div class='service'>
-
-									<div class='icon'>
-										<i class='icon-basic-keyboard'></i>
-									</div>
-
-									<div class='content'>
-
-										<h4>Programming</h4>
-
-										<p>
-											Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri
-											suavitate similique in. Vide assum conceptam eum.
-										</p>
-
-									</div>
-
-								</div>
-							</div>
-
-							<div class='col-md-4'>
-								<div class='service'>
-
-									<div class='icon'>
-										<i class='ion-social-wordpress-outline'></i>
-									</div>
-
-									<div class='content'>
-
-										<h4>WordPress</h4>
-
-										<p>
-											Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri
-											suavitate similique in. Vide assum conceptam eum.
-										</p>
-
-									</div>
-
-								</div>
-							</div>
-
-
-
-						</div>
-
-
-					</div>
-
-				</div> -->
-
-				<div class='section-block skills-block'>
-					<div class='container-fluid'>
-
-						<div class='section-header'>
-
-							<h2>
-								My <strong class='color'>Skills</strong>
-							</h2>
-
-						</div>
-
-
-
-						<div class='col-md-6'>
-
-							<div class='skill'>
-
-								<h4>Flutter</h4>
-
-								<div class='bar'>
-									<div class='percent' style='width:90%;'></div>
-								</div>
-
-							</div>
-
-
-							<div class='skill'>
-
-								<h4>Laravel (php)</h4>
-
-								<div class='bar'>
-									<div class='percent' style='width:50%;'></div>
-								</div>
-
-							</div>
-
-							<div class='skill'>
-
-								<h4>Node</h4>
-
-								<div class='bar'>
-									<div class='percent' style='width:50%;'></div>
-								</div>
-
-							</div>
-
-						</div>
-
-						<div class='col-md-6'>
-
-							<div class='skill'>
-
-								<h4>Dart</h4>
-
-								<div class='bar'>
-									<div class='percent' style='width:90%;'></div>
-								</div>
-
-
-							</div>
-
-							<div class='skill'>
-
-								<h4>JavaScript</h4>
-
-								<div class='bar'>
-									<div class='percent' style='width:50%;'></div>
-								</div>
-
-							</div>
-
-						</div>
-
-					</div>
-
-
-				</div>
-		</div>
-
-		<!-- <div class='section-block pricing-block'>
-
-					<div class='section-header'>
-						<h2>My <strong class='color'>Pricing</strong></h2>
-					</div>
-
-
-					<div class='row'>
-
-						<div class='col-md-4'>
-
-							<div class='p-table'>
-
-								<div class='header'>
-
-									<h4>Basic</h4>
-
-									<div class='price'>
-										<span class='currency'>$</span>
-										<span class='amount'>19</span>
-										<span class='period'>/HR</span>
-									</div>
-
-
-								</div>
-
-								<ul class='items'>
-									<li>
-										App Designing
-									</li>
-									<li>
-										App Development
-									</li>
-									<li>
-										Web Development
-									</li>
-								</ul>
-
-								<a href='#' class='btn-custom btn-color'>
-									Choose This
-								</a>
-
-							</div>
-
-						</div>
-
-						<div class='col-md-4'>
-
-							<div class='p-table'>
-
-								<div class='header'>
-
-									<h4>Pro</h4>
-
-									<div class='price'>
-										<span class='currency'>$</span>
-										<span class='amount'>29</span>
-										<span class='period'>/HR</span>
-									</div>
-
-
-								</div>
-
-								<ul class='items'>
-									<li>
-										App Designing
-									</li>
-									<li>
-										App Development
-									</li>
-									<li>
-										Web Development
-									</li>
-								</ul>
-
-								<a href='#' class='btn-custom btn-color'>
-									Choose This
-								</a>
-
-							</div>
-
-						</div>
-
-						<div class='col-md-4'>
-
-							<div class='p-table'>
-
-								<div class='header'>
-
-									<h4>Gold</h4>
-
-									<div class='price'>
-										<span class='currency'>$</span>
-										<span class='amount'>39</span>
-										<span class='period'>/HR</span>
-									</div>
-
-
-								</div>
-
-								<ul class='items'>
-									<li>
-										App Designing
-									</li>
-									<li>
-										App Development
-									</li>
-									<li>
-										Web Development
-									</li>
-								</ul>
-
-								<a href='#' class='btn-custom btn-color'>
-									Choose This
-								</a>
-
-							</div>
-
-						</div>
-
-
-					</div>
-
-
-				</div> -->
-
-		</section>
-
-
-		<!--=====================================================
-					Resume Section
-				=====================================================-->
-		<section id='resume' class='section resume-section border-d'>
-
-			<div class='section-block timeline-block'>
-
-				<div class='container-fluid'>
-
-					<div class='section-header'>
-
-						<h2>My <strong class='color'>Education</strong></h2>
-
-					</div>
-
-					<ul class='timeline'>
-
-						<li>
-
-							<div class='timeline-content'>
-
-								<h4>Birat Kshitiz College(Tribhuban University)</h4>
-
-								<em>
-									<span>Bachelor Degree</span>
-									<span>2015-2019</span>
-								</em>
-
-								<p>
-									Studied Bsc.csit (Bachelor in Science on Computer Science and Information
-									Technology)
-									<br>
-									<strong>Key Subjects</strong>
-									<br>
-								<ol>C, C++, Java, .NET, PHP</ol>
-								<ol>Data Structure & Algorithm</ol>
-								<ol>Cryptography & Networking</ol>
-								<ol>System Design & Database Management</ol>
-								<ol> Technical Writing, Principles of Management
-								</ol>
-								<ol>Numerical Methods & Statistics</ol>
-								</p>
-
-							</div>
-
-						</li>
-
-						<li>
-
-							<div class='timeline-content'>
-
-								<h4>Vishwa Adarsha Higer Secondary School</h4>
-
-								<em>
-									<span>Intermediate Science</span>
-									<span>2013-2015</span>
-								</em>
-
-								<!-- <p>
-							</p> -->
-
-							</div>
-
-						</li>
-
-						<li>
-
-							<div class='timeline-content'>
-
-								<h4>Sharada Higher Secondary School</h4>
-
-								<em>
-									<span>Schooling</span>
-									<!-- <span>2013-2016</span> -->
-								</em>
-
-								<!-- <p>
-							</p> -->
-
-							</div>
-
-						</li>
-
-
-
-					</ul>
-
-				</div>
-
-			</div>
-
-			<div class='section-block timeline-block'>
-
-				<div class='container-fluid'>
-
-					<div class='section-header'>
-
-						<h2>My <strong class='color'>Experience</strong></h2>
-
-					</div>
-
-					<ul class='timeline'>
-						<li>
-
-							<div class='timeline-content'>
-
-								<h4>Pioneer Associates</h4>
-
-								<em>
-									<span>Senior Mobile Developer</span>
-									<span>2023- Present</span>
-									|
-									<span>Hybrid Developer</span>
-									<span>2020-2021</span>
-								</em>
-
-								<p>
-									Pioneer associates is owner company of cosys software, which is for cooperative
-									and small banks.
-								</p>
-
-							</div>
-
-						</li>
-						<li>
-
-							<div class='timeline-content'>
-
-								<h4>Tekkon Technologies</h4>
-
-								<em>
-									<span>Senior Flutter Developer</span>
-									<span>2022- 2023</span>
-								</em>
-
-								<p>
-									Tekkon is an Australia based outsourcing company that develops all kinds of
-									software basically for startup.
-								</p>
-
-							</div>
-
-						</li>
-
-						<li>
-
-							<div class='timeline-content'>
-
-								<h4>UrbanGirls (UG Cakes)</h4>
-
-								<em>
-									<span>Developer Consultant</span>
-									<span>2022- Present</span>
-									|
-									<span>Senior Flutter Developer</span>
-									<span>2021-2022</span>
-								</em>
-
-								<p>
-									Urbangirl is e-commerce company, mainly for the Cake and Custometic market.
-								</p>
-
-							</div>
-
-						</li>
-
-
-
-						<li>
-
-							<div class='timeline-content'>
-
-								<h4>Deltatech Nepal</h4>
-
-								<em>
-									<span>Flutter Developer</span>
-									<span>2019-2020</span>
-								</em>
-
-								<p>
-									Deltatech is a software development and IT consultancy company which have
-									deltasales app, deltasales crm, deltasales inventory etc.
-								</p>
-
-							</div>
-
-						</li>
-
-
-						<li>
-
-							<div class='timeline-content'>
-
-								<h4>Paaila Technologies</h4>
-
-								<em>
-									<span>Software Development Intern</span>
-									<span>2019-2020</span>
-								</em>
-
-								<p>
-									Paaila Technologies is an IT company based on Eastern Nepal. Working in the
-									field of designing, development, digital marketing and live streaming. </p>
-
-							</div>
-
-						</li>
-
-					</ul>
-
-				</div>
-
-			</div>
-
-			<!-- <div class='section-block testimonials-block'>
-
-				<div class='container-fluid'>
-
-					<div class='section-header'>
-
-						<h2>My <strong class='color'>Clients</strong></h2>
-
-					</div>
-
-
-					<div class='testimonials-slider'>
-
-
-						<div class='testimonial'>
-
-							<div class='icon'>
-								<i class='ion-quote'></i>
-							</div>
-
-							<p>
-								Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate
-								similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo
-								aliquando
-								prodesset at.
-							</p>
-
-							<div class='author'>
-								<h4>Jake Doe</h4>
-								<span>CEO at Company</span>
-							</div>
-
-						</div>
-
-						<div class='testimonial'>
-
-							<div class='icon'>
-								<i class='ion-quote'></i>
-							</div>
-
-							<p>
-								Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate
-								similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo
-								aliquando
-								prodesset at.
-							</p>
-
-							<div class='author'>
-								<h4>Jake Doe</h4>
-								<span>CEO at Company</span>
-							</div>
-
-						</div>
-
-
-						<div class='testimonial'>
-
-							<div class='icon'>
-								<i class='ion-quote'></i>
-							</div>
-
-							<p>
-								Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate
-								similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo
-								aliquando
-								prodesset at.
-							</p>
-
-							<div class='author'>
-								<h4>Jake Doe</h4>
-								<span>CEO at Company</span>
-							</div>
-
-						</div>
-
-						<div class='testimonial'>
-
-							<div class='icon'>
-								<i class='ion-quote'></i>
-							</div>
-
-							<p>
-								Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate
-								similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo
-								aliquando
-								prodesset at.
-							</p>
-
-							<div class='author'>
-								<h4>Jake Doe</h4>
-								<span>CEO at Company</span>
-							</div>
-
-						</div>
-
-
-						<div class='testimonial'>
-
-							<div class='icon'>
-								<i class='ion-quote'></i>
-							</div>
-
-							<p>
-								Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate
-								similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo
-								aliquando
-								prodesset at.
-							</p>
-
-							<div class='author'>
-								<h4>Jake Doe</h4>
-								<span>CEO at Company</span>
-							</div>
-
-						</div>
-
-						<div class='testimonial'>
-
-							<div class='icon'>
-								<i class='ion-quote'></i>
-							</div>
-
-							<p>
-								Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate
-								similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo
-								aliquando
-								prodesset at.
-							</p>
-
-							<div class='author'>
-								<h4>Jake Doe</h4>
-								<span>CEO at Company</span>
-							</div>
-
-						</div>
-
-
-					</div>
-
-				</div>
-
-			</div> -->
-
-		</section>
-
-
-		<!--=====================================================
-					Portfolio Section
-				=====================================================-->
-		<section id='portfolio' class='section portfolio-section border-d'>
-
-			<div class='section-block portfolio-block'>
-
-				<div class='container-fluid'>
-
-
-					<div class='section-header'>
-						<h2>My <strong class='color'>Works</strong></h2>
-					</div>
-
-					<!-- <ul class='portfolio-filters'>
-						<li>
-							<a href='#' class='active' data-group='all'>
-								All
-							</a>
-						</li>
-						<li>
-							<a href='#' data-group='web'>
-								Web
-							</a>
-						</li>
-						<li>
-							<a href='#' data-group='tech'>
-								Tech
-							</a>
-						</li>
-						<li>
-							<a href='#' data-group='photography'>
-								Photography
-							</a>
-						</li>
-					</ul> -->
-
-					<ul class='portfolio-items'>
-
-						<li data-groups='["web","tech"]'>
-							<div class='inner'>
-								<img src='img/portfolio/ocw.png' alt>
-
-								<div class='overlay'>
-
-									<a href='#popup-1' class='view-project'>
-										View Project
-									</a>
-
-									<!--project popup-->
-									<div id='popup-1' class='popup-box zoom-anim-dialog mfp-hide'>
-										<figure>
-
-											<!--project popup image-->
-											<img src='img/portfolio/ocw.png' alt>
-
-										</figure>
-										<div class='content'>
-
-											<!--project popup title-->
-											<a href="https://apps.apple.com/np/app/online-
-											check-writer/id1521980907"></a>
-											<h4>Online CheckWriter</h4>
-											</a>
-											<!--project popup description-->
-											<p>
-												Flutter app to make payments via printable
-												Check, eChecks, Check by mail, Credit, Debit,
-												ACH, Wallet-Wallet, Wire, etc.
-											</p>
-
-										</div>
-
-									</div>
-
-								</div>
-
-							</div>
-						</li>
-
-						<li data-groups='["tech","photography"]'>
-							<div class='inner'>
-								<img src='img/portfolio/ug.png' alt>
-
-								<div class='overlay'>
-
-									<a href='#popup-2' class='view-project'>
-										View Project
-									</a>
-
-									<!--project popup-->
-									<div id='popup-2' class='popup-box zoom-anim-dialog mfp-hide'>
-										<figure>
-
-											<!--project popup image-->
-											<img src='img/portfolio/ug.png' alt>
-
-										</figure>
-										<div class='content'>
-
-											<!--project popup title-->
-											<a href="https://apps.apple.com/us/app/ug-bazaar/id1586302253">
-												<h4>UG Cakes</h4>
-											</a>
-											<!--project popup description-->
-											<p>
-												E-commence mobile application specialized
-												for cakes and gifts
-											</p>
-
-										</div>
-
-									</div>
-
-								</div>
-
-							</div>
-						</li>
-
-						<li data-groups='["web","photography"]'>
-							<div class='inner'>
-								<img src='img/portfolio/willow.jpg' alt>
-
-								<div class='overlay'>
-
-									<a href='#popup-3' class='view-project'>
-										View Project
-									</a>
-
-									<!--project popup-->
-									<div id='popup-3' class='popup-box zoom-anim-dialog mfp-hide'>
-										<figure>
-
-											<!--project popup image-->
-											<img src='img/portfolio/willow.jpg' alt>
-
-										</figure>
-										<div class='content'>
-
-											<!--project popup title-->
-											<a href="https://apps.apple.com/us/app/plant-
-										with-willow/id1642293839">
-												<h4>Plant With Willow</h4>
-											</a>
-											<!--project popup description-->
-											<p>
-												Top 10 best mobile applications for home
-												appliances in Australia.
-												Has features like plant scanning, plant
-												health, pair and connect sensors etc
-											</p>
-
-										</div>
-
-									</div>
-
-								</div>
-
-							</div>
-						</li>
-
-						<li data-groups='["web"]'>
-							<div class='inner'>
-								<img src='img/portfolio/lottery.png' alt>
-
-								<div class='overlay'>
-
-									<a href='#popup-4' class='view-project'>
-										View Project
-									</a>
-
-									<!--project popup-->
-									<div id='popup-4' class='popup-box zoom-anim-dialog mfp-hide'>
-										<figure>
-
-											<!--project popup image-->
-											<img src='img/portfolio/lottery.png' alt>
-
-										</figure>
-										<div class='content'>
-
-											<!--project popup title-->
-											<h4>Lottery Texas</h4>
-
-											<!--project popup description-->
-											<p>
-												Lottery app available on America
-											</p>
-
-										</div>
-
-									</div>
-
-								</div>
-
-							</div>
-						</li>
-
-						<li data-groups='["tech"]'>
-							<div class='inner'>
-								<img src='img/portfolio/cosys.png' alt>
-
-								<div class='overlay'>
-
-									<a href='#popup-5' class='view-project'>
-										View Project
-									</a>
-
-									<!--project popup-->
-									<div id='popup-5' class='popup-box zoom-anim-dialog mfp-hide'>
-										<figure>
-
-											<!--project popup image-->
-											<img src='img/portfolio/cosys.png' alt>
-
-										</figure>
-										<div class='content'>
-
-											<!--project popup title-->
-											<a
-												href="https://play.google.com/store/apps/details?id=com.cosys.cosysmobilebanking">
-												<h4>Cosys Management</h4>
-											</a>
-											<!--project popup description-->
-											<p>
-												Cooperative mobile banking app
-											</p>
-
-										</div>
-
-									</div>
-
-								</div>
-
-							</div>
-						</li>
-
-						<li data-groups='["photography"]'>
-							<div class='inner'>
-								<img src='img/portfolio/erp.png' alt>
-
-								<div class='overlay'>
-
-									<a href='#popup-6' class='view-project'>
-										View Project
-									</a>
-
-									<!--project popup-->
-									<div id='popup-6' class='popup-box zoom-anim-dialog mfp-hide'>
-										<figure>
-
-											<!--project popup image-->
-											<img src='img/portfolio/erp.png' alt>
-
-										</figure>
-										<div class='content'>
-
-											<!--project popup title-->
-											<h4>Cosys ERP</h4>
-
-											<!--project popup description-->
-											<p>
-												Enterprise app focused on HRM, Reports, Tickets etc.µß
-											</p>
-
-										</div>
-
-									</div>
-
-								</div>
-
-							</div>
-						</li>
-
-					</ul>
-
-				</div>
-
-			</div>
-
-		</section>
-
-
-		<!--=====================================================
-					Contact Section
-				=====================================================-->
-		<section id='contact' class='section contact-section border-d'>
-
-			<div class='section-block contact-block'>
-
-				<div class='container-fluid'>
-
-					<div class='section-header'>
-						<h2>Contact <strong class='color'>Me</strong></h2>
-					</div>
-
-
-					<div class='row'>
-
-						<div class='col-md-8'>
-
-							<div class='contact-form'>
-
-								<form id='contact-form'>
-
-									<div class='row'>
-
-										<div class='col-md-6'>
-											<div class='form-group'>
-
-												<input type='text' class='form-control' placeholder='Name' name='name'
-													required>
-												<div class='help-block with-errors'></div>
-
-											</div>
-										</div>
-
-										<div class='col-md-6'>
-											<div class='form-group'>
-
-												<input type='email' class='form-control' placeholder='Email'
-													name='email' required>
-												<div class='help-block with-errors'></div>
-
-											</div>
-										</div>
-
-									</div>
-
-									<div class='form-group'>
-
-										<input type='text' class='form-control' placeholder='Subject' name='subject'
-											required>
-										<div class='help-block with-errors'></div>
-
-									</div>
-
-									<div class='form-group'>
-
-										<textarea class='form-control' placeholder='Message' name='message' rows='5'
-											required></textarea>
-										<div class='help-block with-errors'></div>
-
-									</div>
-
-									<div class='form-group text-center'>
-										<button type='submit' class='btn-custom btn-color'>
-											Send Message
-										</button>
-									</div>
-
-								</form>
-
-							</div>
-
-
-						</div>
-
-						<div class='col-md-4'>
-
-							<div class='contact-info-icons'>
-
-								<div class='contact-info'>
-
-									<i class='ion-ios-location-outline'></i>
-
-									<p>
-										Sathdobato<br>
-										Lalitpur, Bagmati
-									</p>
-
-								</div>
-
-
-								<div class='contact-info'>
-
-									<i class='ion-ios-telephone-outline'></i>
-
-									<p>
-										(+977) 9829326110<br>
-										(+977) 9847692845
-									</p>
-
-								</div>
-
-
-								<div class='contact-info'>
-
-									<i class='ion-android-globe'></i>
-
-									<p>
-										www.santosh-adhikari.com.np<br>
-										www.linkedin.com/in/santosh-adhikari-6ba867147
-									</p>
-
-								</div>
-
-
-
-
-							</div>
-
-
-
-						</div>
-
-
-					</div>
-
-
-
-				</div>
-
-			</div>
-
-		</section>
-
-	</div>
-
-	</div>
-
-
-	<!--=====================================================
-			JavaScript Files
-		=====================================================-->
-	<script src='js/jquery.min.js'></script>
-	<script src='js/jquery.shuffle.min.js'></script>
-	<script src='js/owl.carousel.min.js'></script>
-	<script src='js/jquery.magnific-popup.min.js'></script>
-	<script src='js/validator.min.js'></script>
-	<script src='js/script.js'></script>
-
+  <!-- ============================================================
+    NAVIGATION
+  ============================================================ -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="logo">SA<span class="logo-dot">.</span></a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#experience" class="mobile-link">Experience</a></li>
+      <li><a href="#projects" class="mobile-link">Projects</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- ============================================================
+      HERO
+    ============================================================ -->
+    <section id="hero" class="hero">
+      <div class="hero-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="grid-overlay"></div>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Available for opportunities
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Santosh</span><br>
+          Adhikari
+        </h1>
+        <p class="hero-role">Senior Flutter Developer &amp; Team Lead</p>
+        <p class="hero-desc">
+          7+ years crafting high-performance cross-platform mobile apps<br class="hide-sm">
+          for Android &amp; iOS with Flutter &amp; Dart.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num">7+</span>
+            <span class="stat-label">Years Exp.</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">50+</span>
+            <span class="stat-label">Apps Shipped</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">4</span>
+            <span class="stat-label">Companies</span>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+      ABOUT
+    ============================================================ -->
+    <section id="about" class="section" data-nosnippet>
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">About Me</span>
+          <h2>I'm a <span class="gradient-text">Programmer</span></h2>
+        </div>
+        <div class="bento-grid fade-up">
+
+          <div class="bento-card bento-bio">
+            <span class="card-label">Bio</span>
+            <p>
+              Accomplished Senior Full Stack Developer and Team Lead with 7+ years of expertise in Flutter
+              development and 3+ years of proven leadership experience. Specialized in building scalable
+              cross-platform mobile applications, enterprise systems, and leading high-performing
+              development teams.
+            </p>
+            <p>
+              Demonstrated success in delivering complex projects from conception to deployment, with
+              strong expertise in Flutter Web, PHP Laravel, and React ecosystems. Proficient in Clean
+              Architecture, state management (BLoC, Riverpod, Provider), Firebase, CI/CD, and full
+              App Store / Play Store deployment pipelines.
+            </p>
+          </div>
+
+          <div class="bento-card bento-location">
+            <div class="bento-icon">🌏</div>
+            <h4>Based in</h4>
+            <p>Lalitpur, Nepal</p>
+          </div>
+
+          <div class="bento-card bento-years">
+            <span class="big-number">7+</span>
+            <p>Years of<br><strong>Experience</strong></p>
+          </div>
+
+          <div class="bento-card bento-current">
+            <span class="card-label">Currently at</span>
+            <div class="bento-icon">💼</div>
+            <h4>Pioneer Associates</h4>
+            <p>Senior Software Engineer</p>
+          </div>
+
+          <div class="bento-card bento-cta">
+            <p>Let's build something amazing together</p>
+            <a href="#" class="btn btn-primary btn-sm">Download Resume</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+      SKILLS
+    ============================================================ -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Expertise</span>
+          <h2>My <span class="gradient-text">Skills</span></h2>
+        </div>
+        <div class="skills-grid fade-up">
+
+          <div class="skill-card">
+            <div class="skill-header">
+              <span class="skill-name">Flutter (Dart)</span>
+              <span class="skill-percent">95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="95"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-header">
+              <span class="skill-name">State Management (BLoC / Riverpod)</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="90"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-header">
+              <span class="skill-name">Laravel (PHP)</span>
+              <span class="skill-percent">60%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="60"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-header">
+              <span class="skill-name">Node.js</span>
+              <span class="skill-percent">55%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="55"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-header">
+              <span class="skill-name">React (Refine)</span>
+              <span class="skill-percent">50%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="50"></div>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-header">
+              <span class="skill-name">Java</span>
+              <span class="skill-percent">40%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="40"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+      EXPERIENCE
+    ============================================================ -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Career</span>
+          <h2>My <span class="gradient-text">Experience</span></h2>
+        </div>
+        <div class="timeline fade-up">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-date">2023 — Present</span>
+                <span class="timeline-badge">Current</span>
+              </div>
+              <h3 class="timeline-title">Senior Software Engineer</h3>
+              <h4 class="timeline-company">Pioneer Associates Pvt. Ltd.</h4>
+              <ul class="timeline-list">
+                <li>Flutter development for the Zil Bank application (Kerala, India client)</li>
+                <li>Implemented core banking features for Cosys Mobile Banking platform</li>
+                <li>Developed comprehensive ERP system integrating multiple business modules</li>
+                <li>Built Collector POS, Manager app, Lottery system, and Premium banking app</li>
+                <li>Managing cross-functional development teams and project timelines</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-date">2022 — 2023</span>
+              </div>
+              <h3 class="timeline-title">Lead Flutter Developer</h3>
+              <h4 class="timeline-company">Tekkon Technologies</h4>
+              <ul class="timeline-list">
+                <li>Led the CareCorner mobile development team</li>
+                <li>Developed Willow v1 — Top 10 home appliances app in Australia</li>
+                <li>Pixel-perfect implementation from Adobe XD designs with IoT sensor integration</li>
+                <li>Managed the full development lifecycle from planning to App Store deployment</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-date">2021 — 2022</span>
+              </div>
+              <h3 class="timeline-title">Software Engineer → Consultant</h3>
+              <h4 class="timeline-company">Urban Girl (UG Cakes)</h4>
+              <ul class="timeline-list">
+                <li>Led UG Cakes e-commerce app development for iOS and Android</li>
+                <li>Built staff and delivery management systems (mobile &amp; web)</li>
+                <li>Created bakery management system and UG Wardrobe live auction platform</li>
+                <li>Ongoing: technical consultation, team leadership, and requirement analysis</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-date">2019 — 2020</span>
+              </div>
+              <h3 class="timeline-title">Flutter Developer</h3>
+              <h4 class="timeline-company">Deltatech Nepal</h4>
+              <ul class="timeline-list">
+                <li>Developed the Delta Sales CRM mobile application</li>
+                <li>Built POS system and inventory management tooling in Java</li>
+                <li>Established foundation in Flutter architecture and mobile development patterns</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-date">2019</span>
+              </div>
+              <h3 class="timeline-title">Software Development Intern</h3>
+              <h4 class="timeline-company">Paaila Technologies</h4>
+              <p>IT company in Eastern Nepal focused on design, development, digital marketing, and live streaming.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+      EDUCATION
+    ============================================================ -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Background</span>
+          <h2>My <span class="gradient-text">Education</span></h2>
+        </div>
+        <div class="timeline fade-up">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-date">2015 — 2019</span>
+              </div>
+              <h3 class="timeline-title">BSc. Computer Science &amp; IT</h3>
+              <h4 class="timeline-company">Birat Kshitiz College, Tribhuvan University</h4>
+              <p>Key subjects: C/C++/Java/.NET/PHP, Data Structures &amp; Algorithms, Cryptography &amp; Networking, System Design, Database Management, Statistics.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-date">2013 — 2015</span>
+              </div>
+              <h3 class="timeline-title">Intermediate Science</h3>
+              <h4 class="timeline-company">Vishwa Adarsha Higher Secondary School</h4>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+      PROJECTS
+    ============================================================ -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Portfolio</span>
+          <h2>My <span class="gradient-text">Projects</span></h2>
+        </div>
+        <div class="projects-grid fade-up">
+
+          <div class="project-card">
+            <div class="project-img">
+              <img src="img/portfolio/ocw.png" alt="Online CheckWriter App" loading="lazy">
+              <div class="project-overlay">
+                <a href="https://apps.apple.com/np/app/online-check-writer/id1521980907" target="_blank" rel="noopener noreferrer" class="project-link">
+                  View on App Store ↗
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">iOS</span>
+                <span class="tag">Payments</span>
+              </div>
+              <h3>Online CheckWriter</h3>
+              <p>Flutter app for payments via printable Check, eChecks, Check by mail, Credit, Debit, ACH, Wire transfers and more.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img">
+              <img src="img/portfolio/ug.png" alt="UG Cakes App" loading="lazy">
+              <div class="project-overlay">
+                <a href="https://apps.apple.com/us/app/ug-bazaar/id1586302253" target="_blank" rel="noopener noreferrer" class="project-link">
+                  View on App Store ↗
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">E-Commerce</span>
+              </div>
+              <h3>UG Cakes / UG Bazaar</h3>
+              <p>E-commerce mobile application specialized for cakes and gifts delivery.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img">
+              <img src="img/portfolio/willow.jpg" alt="Plant With Willow App" loading="lazy">
+              <div class="project-overlay">
+                <a href="https://apps.apple.com/us/app/plant-with-willow/id1642293839" target="_blank" rel="noopener noreferrer" class="project-link">
+                  View on App Store ↗
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">IoT</span>
+                <span class="tag">Australia</span>
+              </div>
+              <h3>Plant With Willow</h3>
+              <p>Top 10 best mobile apps for home appliances in Australia. Plant scanning, health monitoring, and sensor pairing.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img">
+              <img src="img/portfolio/lottery.png" alt="Lottery Texas App" loading="lazy">
+              <div class="project-overlay">
+                <span class="project-link no-link">Flutter App</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">USA</span>
+              </div>
+              <h3>Lottery Texas</h3>
+              <p>Lottery application available across America.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img">
+              <img src="img/portfolio/cosys.png" alt="Cosys Management App" loading="lazy">
+              <div class="project-overlay">
+                <a href="https://play.google.com/store/apps/details?id=com.cosys.cosysmobilebanking" target="_blank" rel="noopener noreferrer" class="project-link">
+                  View on Play Store ↗
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">Banking</span>
+                <span class="tag">Android</span>
+              </div>
+              <h3>Cosys Management</h3>
+              <p>Cooperative mobile banking app for managing accounts, transactions, and banking operations.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img">
+              <img src="img/portfolio/erp.png" alt="Cosys ERP" loading="lazy">
+              <div class="project-overlay">
+                <span class="project-link no-link">Web / Desktop</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">ERP</span>
+                <span class="tag">Web</span>
+                <span class="tag">HRM</span>
+              </div>
+              <h3>Cosys ERP</h3>
+              <p>Enterprise resource planning system featuring HRM, Reports, and Ticket management modules.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img" style="background: linear-gradient(135deg, #1a0533 0%, #2d1b69 100%);">
+              <div class="project-overlay" style="opacity:1">
+                <a href="https://play.google.com/store/apps/details?id=com.nobodyproduction.doko" target="_blank" rel="noopener noreferrer" class="project-link">
+                  View on Play Store ↗
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">Android</span>
+                <span class="tag">100k+ Users</span>
+              </div>
+              <h3>Doko</h3>
+              <p>Multipurpose content platform featuring news, articles, games, TV shows, memes, quotes, and more. Over 100,000 active users.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img" style="background: linear-gradient(135deg, #001f3f 0%, #003d7a 100%);">
+              <div class="project-overlay" style="opacity:1">
+                <a href="https://play.google.com/store/apps/details?id=live.galeries.app" target="_blank" rel="noopener noreferrer" class="project-link">
+                  View on Play Store ↗
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">E-Commerce</span>
+                <span class="tag">Live Auction</span>
+              </div>
+              <h3>Galeries Live</h3>
+              <p>Online live auction and e-commerce mobile app for buying and selling products in real time.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img" style="background: linear-gradient(135deg, #0d2137 0%, #0a3d62 100%);">
+              <div class="project-overlay" style="opacity:1">
+                <span class="project-link no-link">Laravel · React · Flutter</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">ERP</span>
+                <span class="tag">Team Lead</span>
+                <span class="tag">Full Stack</span>
+              </div>
+              <h3>GennithFlow ERP</h3>
+              <p>Comprehensive enterprise system integrating AMS, project management, accounting, payroll, HRM, CRM, and ticketing. Laravel backend, Node.js real-time services, React Refine admin panel, and Flutter mobile app. Led from planning to deployment.</p>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img" style="background: linear-gradient(135deg, #1a1a0d 0%, #3d3d00 100%);">
+              <div class="project-overlay" style="opacity:1">
+                <span class="project-link no-link">Flutter · Java</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">CRM</span>
+                <span class="tag">Nepal</span>
+              </div>
+              <h3>Delta Sales CRM</h3>
+              <p>Mobile CRM application for sales tracking, customer management, and inventory operations built for Deltatech Nepal.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+      CONTACT
+    ============================================================ -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="section-tag">Contact</span>
+          <h2>Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-desc">Have a project in mind or want to collaborate? Drop me a message.</p>
+        </div>
+        <div class="contact-grid fade-up">
+
+          <form class="contact-form" id="contact-form" action="https://formspree.io/f/xgopnypd" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me more..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+              Send Message
+            </button>
+            <div id="form-status" class="form-status" aria-live="polite"></div>
+          </form>
+
+          <div class="contact-info-panel">
+            <div class="info-card">
+              <div class="info-icon">📍</div>
+              <div>
+                <h4>Location</h4>
+                <p>Sathdobato, Lalitpur<br>Bagmati, Nepal</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">📞</div>
+              <div>
+                <h4>Phone</h4>
+                <p>(+977) 9829326110<br>(+977) 9847692845</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">🌐</div>
+              <div>
+                <h4>Connect</h4>
+                <a href="https://www.linkedin.com/in/santosh-adhikari-6ba867147" target="_blank" rel="noopener noreferrer" class="info-link">
+                  LinkedIn →
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p>© 2024 Santosh Adhikari. All rights reserved.</p>
+        <p class="footer-site">santosh-adhikari.com.np</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">↑</button>
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>
